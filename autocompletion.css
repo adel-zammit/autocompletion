@@ -1,0 +1,75 @@
+body{
+    background: url(img/Pokemon.png) no-repeat center fixed;
+    height: 200%;
+    background-position: 100%;
+    background-size: cover;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-groupe{
+    text-align: center;
+    height: 120px;
+    position: relative;
+    top: 150px;
+
+}
+
+#result-search{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container{
+    text-align: center;
+    color: cadetblue;
+}
+
+.row{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 10px;
+}
+
+.result{
+    text-align: center;
+    top: 20pxs;
+}
+
+.fdp{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+h1 {
+  font-size: calc(20px + 20px);
+  line-height: calc(15px + 20px);
+  text-shadow: 0 0 5px#4ca1af, 0 0 15px #4ca1af, 0 0 20px#4ca1af, 0 0 40px #4ca1af;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #c4e0e5;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #4ca1af, 0 0 15px #4ca1af, 0 0 20px #4ca1af, 0 0 40px #4ca1af;
+    color: #e1ecee;
+  }
+}
